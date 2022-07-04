@@ -4,6 +4,12 @@
     font-family: "Inter", sans-serif;
 }
 
+@media (max-width: 400px) {
+    .info--img{
+        display: none;
+    }
+}
+
 main{
     background: #1A1B21;
     width: 500px;
@@ -61,9 +67,9 @@ main{
     margin-bottom: 33px;
 }
 
-.info--btnGroup > button{
+.info--btnGroup button{
     width: 115px;
-    height: 34px;
+    height: 40px;
 }
 
 .info--btnEmail{
@@ -73,7 +79,6 @@ main{
     margin-right: 17px;
     margin-left: 35px;
     cursor: pointer;
-    width: 120px;
 }
 
 .info--btnEmailTitle{
@@ -94,7 +99,6 @@ main{
     margin-right: 35px;
     color: white;
     cursor: pointer;
-    width: 120px;
 }
 
 .info--btnLinkedInTitle{
