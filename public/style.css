@@ -4,17 +4,14 @@
     font-family: "Inter", sans-serif;
 }
 
-@media (max-width: 400px) {
-    .info--img{
-        display: none;
-    }
-}
-
 main{
     background: #1A1B21;
     width: 500px;
     margin-left: auto;
     margin-right: auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .info--container{
@@ -159,5 +156,11 @@ main{
 
 .insta--svg{
     margin-right: 23.5px;
+}
+
+@media (min-width: 414px) and (width: 390px) {
+    main{
+        margin-top: 18%;
+    }
 }
 
