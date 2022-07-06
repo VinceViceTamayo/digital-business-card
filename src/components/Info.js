@@ -4,7 +4,7 @@ import { CopyToClipboard } from "react-copy-to-clipboard"
 export default function Info() {
     return (
         <div className="info--container">
-            <img className="info--img" src="../image/info--image.jpg" alt="Profile"/>
+            <img className="info--img" src="image/info--image.jpg" alt="Profile"/>
             <h1 className="info--name">Vince Vice Tamayo</h1>
             <h3 className="info--position">Frontend Developer</h3>
             <a href="https://vct-porfolio.netlify.app/" className="info--portfolio" target="_blank" rel="noreferrer">https://vct-porfolio.netlify.app/</a>
